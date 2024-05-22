@@ -75,14 +75,21 @@ Once your project is set up, you can monitor the data remotely through the [Ardu
    cd ESP32-DHT-OLED-Arduino-Cloud-Monitoring
 
 
-Open the project in Arduino Cloud Editor.
-Connect the ESP32 to your computer via USB.
-Configure the code in Arduino Cloud Editor.
-Upload the code to the ESP32 using Arduino Cloud.
+
+2.Open the project in Arduino Cloud Editor.
+
+3.Connect the ESP32 to your computer via USB.
+
+4.Configure the code in Arduino Cloud Editor.
+
+5.Upload the code to the ESP32 using Arduino Cloud.
 
 # Usage
+
 Power on the ESP32.
+
 The OLED display will show the current temperature and humidity.
+
 Monitor the data remotely via the Arduino IoT Cloud dashboard.
 
 
@@ -188,13 +195,19 @@ void onHumidityChange() {
 The code includes necessary libraries for the project functionality. For example:
 
 thingProperties.h: Contains properties for interacting with Arduino IoT Cloud.
+
 DHT.h: Library for DHT sensor communication.
+
 This section sets up the environment and initializes required libraries and components for the project.
 
 ## Setup Function
+
 Initializes the serial communication for debugging.
+
 Begins the DHT sensor.
+
 Initializes the properties and connects to Arduino IoT Cloud.
+
 Initializes the OLED display and prints "ONLINE" to indicate the system is ready.
 
 ## Loop Function
