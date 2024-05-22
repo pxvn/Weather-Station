@@ -10,8 +10,6 @@
   <img src="https://img.shields.io/badge/Adafruit-GFX-orange.svg" alt="Adafruit GFX" />
   <img src="https://img.shields.io/badge/SSD1306-OLED-yellow.svg" alt="SSD1306 OLED" />
   <img src="https://img.shields.io/github/last-commit/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring" />
-  <img src="https://img.shields.io/github/languages/top/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring" />
-
 </p>
 
 
@@ -240,4 +238,4 @@ onTEMPChange and onHumidityChange: Placeholder functions that can be implemented
 ## Flowchart
 ESP32-DHT-OLED-Arduino-Cloud-Monitoring Flowchart:
 ![ed8ebf98-2562-427e-9157-f7fcab0fbe02](https://github.com/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring/assets/161462414/4535a39a-17eb-410d-a9f2-cb2d8e2f6788)
-*.cpp   C++
+
