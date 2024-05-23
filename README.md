@@ -242,3 +242,5 @@ onTEMPChange and onHumidityChange: Placeholder functions that can be implemented
 ESP32-DHT-OLED-Arduino-Cloud-Monitoring Flowchart:
 ![ed8ebf98-2562-427e-9157-f7fcab0fbe02](https://github.com/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring/assets/161462414/4535a39a-17eb-410d-a9f2-cb2d8e2f6788)
 
+## License 
+[MIT License](LICENSE)
