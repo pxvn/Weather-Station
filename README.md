@@ -1,4 +1,4 @@
-# Temperature & Humidity Monitoring with ESP32, DHT Sensor, OLED Display, and Arduino IoT Cloud Integration
+# Smart Temp & Humidity Monitoring with ESP32 and DHT11 With Arduino IOT Cloud Integration
 
 
 <p align="center">
@@ -10,11 +10,14 @@
   <img src="https://img.shields.io/badge/Adafruit-GFX-orange.svg" alt="Adafruit GFX" />
   <img src="https://img.shields.io/badge/SSD1306-OLED-yellow.svg" alt="SSD1306 OLED" />
   <img src="https://img.shields.io/github/last-commit/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring" />
+  <img src="https://img.shields.io/badge/Code-Verified%20%26%20Tested-success"/>
+
 </p>
 
 
+Welcome to the ESP32-based temperature and humidity monitoring system project! 🌡️💧
 
-Welcome to the ESP32-based temperature and humidity monitoring system project! 🌡️💧 This system uses a DHT sensor and an OLED display, integrated with Arduino IoT Cloud for remote monitoring.
+This system uses a DHT sensor and an OLED display, integrated with Arduino IoT Cloud for remote monitoring.
 
 ## Table of Contents
 
