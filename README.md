@@ -106,8 +106,17 @@ The OLED display will show the current temperature and humidity.
 
 Monitor the data remotely via the Arduino IoT Cloud dashboard.
 
+# DIAGRAM
+
+<div style="text-align:center; border-radius: 10px; overflow: hidden;">
+  <img src="https://github.com/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring/assets/161462414/aa3cfb1d-6238-46fb-a979-ecb2d0dae250" alt="Diagram" style="width: 100%; border-radius: 10px;">
+  <button style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; margin-top: 10px;">
+    <a href="https://wokwi.com/projects/398654689401430017" style="text-decoration: none; color: white;">View on Wokwi</a>
+  </button>
+</div>
 
 ## Code Explanation
+
 
 ```cpp
 /*
