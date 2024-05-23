@@ -54,6 +54,7 @@ This project demonstrates how to use an ESP32 microcontroller to monitor tempera
 | HVAC Systems Control                      | Use sensor data to control heating, ventilation, and air conditioning systems for optimal comfort and energy efficiency. |
 
 
+
 ## Hardware Required
 
 | Component                  | Quantity |
