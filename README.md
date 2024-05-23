@@ -1,5 +1,4 @@
-# Smart Temp & Humidity Monitoring with ESP32 and DHT11 With Arduino IOT Cloud Integration
-
+# ARDUINO IOT CLOUD BASED Smart Temp & Humidity Monitoring with ESP32 & DHT11
 
 <p align="center">
   <img src="https://views.whatilearened.today/views/github/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring.svg" alt="ViewCount" />
@@ -71,7 +70,7 @@ This project demonstrates how to use an ESP32 microcontroller to monitor tempera
 
 ### Arduino IoT Cloud
 
-1. Create an account on [Arduino IoT Cloud](https://create.arduino.cc/iot).
+1. Create an account on [Arduino IoT Cloud]([https://create.arduino.cc/iot](https://login.arduino.cc/login?state=hKFo2SBXRkRTMUpXeU0yZzJwYmRTWHMxV0dvVmlTT2taQ1BTLaFupWxvZ2luo3RpZNkgWHBnUm5xTElIOTJMYTlERWNkbFFJMUpsaWZGb19leUajY2lk2SBlOXFpcEEyTjBrOVA4dnZyZTlmZEdjNnU5S2w5ZUhTUA&client=e9qipA2N0k9P8vvre9fdGc6u9Kl9eHSP&protocol=oauth2&scope=openid+profile+email&redirect_uri=https%3A%2F%2Fapp.arduino.cc&response_type=code&response_mode=query&nonce=WkJOZU1DMXFNdm9sZnRVUUkyNjVpQkc4QldSSThsSUl2TmFhdEZFbk9BZA%3D%3D&code_challenge=IMd_pOLLHEdkcaM2Kd2XA0BHyR4Fc0ww3T4TEUQxUv8&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjIuMS4zIn0%3D#/sso/login)).
 2. Set up a new device and configure the ESP32.
 3. Create a new Thing and add the necessary variables for temperature and humidity.
 
