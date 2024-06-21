@@ -1,4 +1,4 @@
-# ARDUINO IOT CLOUD BASED Smart Temp & Humidity Monitoring with ESP32 & DHT11
+# Smart Temp & Humidity Monitoring with ESP32
 
 [![ViewCount](https://views.whatilearened.today/views/github/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
@@ -39,7 +39,7 @@ Monitor temperature and humidity in real-time with an ESP32, DHT sensor, and OLE
 
 ## Installation
 
-1. Clone repository: `git clone https://github.com/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring.git`
+1. Clone repository: `git clone https://github.com/pxvn/iot-dht-esp32.git`
 2. Open in Arduino Cloud Editor.
 3. Connect ESP32 to computer.
 4. Configure and upload code.
@@ -61,4 +61,4 @@ Flowchart:
 
 ## Code
 
-[See full code](ESP32-DHT-OLED-Arduino-Cloud-Monitoring.ino) (includes MIT License)
+[See full code](code.cpp) (includes MIT License)
