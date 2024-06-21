@@ -48,6 +48,12 @@ Monitor temperature and humidity in real-time with an ESP32, DHT sensor, and OLE
 
 [![Diagram](https://github.com/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring/assets/161462414/aa3cfb1d-6238-46fb-a979-ecb2d0dae250)](https://wokwi.com/projects/398654689401430017)
 
+
+## Flowchart
+Flowchart:
+![ed8ebf98-2562-427e-9157-f7fcab0fbe02](https://github.com/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring/assets/161462414/4535a39a-17eb-410d-a9f2-cb2d8e2f6788)
+
+
 ## Usage
 
 1. Power on ESP32.
@@ -56,8 +62,3 @@ Monitor temperature and humidity in real-time with an ESP32, DHT sensor, and OLE
 ## Code
 
 [See full code](ESP32-DHT-OLED-Arduino-Cloud-Monitoring.ino) (includes MIT License)
-
-## Flowchart
-Flowchart:
-![ed8ebf98-2562-427e-9157-f7fcab0fbe02](https://github.com/pxvn/ESP32-DHT-OLED-Arduino-Cloud-Monitoring/assets/161462414/4535a39a-17eb-410d-a9f2-cb2d8e2f6788)
-
