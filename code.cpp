@@ -28,8 +28,6 @@ DHT dht(DHTPIN, DHTTYPE); // Initialize DHT sensor object
 void setup() {
   Serial.begin(9600); 
   dht.begin(); 
-
-  // This delay gives the chance to wait for a Serial Monitor without blocking if none is found
   delay(1500);
 
   initProperties(); // Initialize Arduino IoT Cloud properties
