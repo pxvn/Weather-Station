@@ -23,14 +23,13 @@
 #define SCREEN_ADDRESS 0x3C
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET); 
-DHT dht(DHTPIN, DHTTYPE); // Initialize DHT sensor object
-
+DHT dht(DHTPIN, DHTTYPE); 
 void setup() {
   Serial.begin(9600); 
   dht.begin(); 
   delay(1500);
 
-  initProperties(); // Initialize Arduino IoT Cloud properties
+  initProperties(); // Initialize Arduino IoT Cloud 
 
   ArduinoCloud.begin(ArduinoIoTPreferredConnection);
 
@@ -50,16 +49,15 @@ void setup() {
 
 void loop() {
   ArduinoCloud.update(); 
-  float hum = dht.readHumidity(); // Read humidity from DHT sensor
+  float hum = dht.readHumidity(); 
   float temp = dht.readTemperature(); // Read temperature from DHT sensor
-  if (isnan(hum) || isnan(temp)) { // Check if the readings are valid
+  if (isnan(hum) || isnan(temp)) { 
     Serial.println(F("Failed to read from DHT sensor!"));
     return;
   }
-  humidity = hum; // Update cloud variable with humidity
-  tEMP = temp; // Update cloud variable with temperature
+  humidity = hum; 
+  tEMP = temp; 
 
-  // Your code here
 
   Serial.print("Temp: ");
   Serial.print(temp);
@@ -69,7 +67,6 @@ void loop() {
   Serial.println("%");
   delay(1000);
   
-  // Display temperature and humidity on OLED
   display.setTextSize(1);
   display.setCursor(0,20);
   display.print("TemP: ");
